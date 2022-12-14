@@ -3,3 +3,10 @@ export type TProduct = {
   name: string,
   amount: string,
 };
+
+export type TUser = { 
+  username: string,
+  vocation: string,
+  level: number,
+  password: string
+};
